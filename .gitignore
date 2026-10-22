@@ -1,0 +1,41 @@
+# Build outputs and local editor state
+build/
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+
+# Personal runtime data, recovery records, and diagnostics
+profile.bin
+language.txt
+diagnostics/
+*.log
+*.dmp
+*.dump
+
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+auth.json
+credentials.json
+secrets.json
+*.local.json
+*.local.config
+*.pem
+*.key
+*.pfx
+*.p12
+
+# External runtime binaries are distributed separately
+/core/
+
+# Local experiments and backups
+_live/
+backups/
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
